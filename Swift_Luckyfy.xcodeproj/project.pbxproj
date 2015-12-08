@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CFC84051C172EA8003E054B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC84041C172EA8003E054B /* AppDelegate.swift */; };
+		2CFC84071C172EA8003E054B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC84061C172EA8003E054B /* ViewController.swift */; };
+		2CFC840A1C172EA8003E054B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFC84081C172EA8003E054B /* Main.storyboard */; };
+		2CFC840C1C172EA8003E054B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFC840B1C172EA8003E054B /* Assets.xcassets */; };
+		2CFC840F1C172EA8003E054B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFC840D1C172EA8003E054B /* LaunchScreen.storyboard */; };
+		2CFC841A1C172EA9003E054B /* Swift_LuckyfyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC84191C172EA9003E054B /* Swift_LuckyfyTests.swift */; };
+		2CFC84251C172EA9003E054B /* Swift_LuckyfyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC84241C172EA9003E054B /* Swift_LuckyfyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CFC84161C172EA9003E054B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CFC83F91C172EA8003E054B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CFC84001C172EA8003E054B;
+			remoteInfo = Swift_Luckyfy;
+		};
+		2CFC84211C172EA9003E054B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CFC83F91C172EA8003E054B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CFC84001C172EA8003E054B;
+			remoteInfo = Swift_Luckyfy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CFC84011C172EA8003E054B /* Swift_Luckyfy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_Luckyfy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CFC84041C172EA8003E054B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CFC84061C172EA8003E054B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CFC84091C172EA8003E054B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CFC840B1C172EA8003E054B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CFC840E1C172EA8003E054B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CFC84101C172EA8003E054B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CFC84151C172EA9003E054B /* Swift_LuckyfyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_LuckyfyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CFC84191C172EA9003E054B /* Swift_LuckyfyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_LuckyfyTests.swift; sourceTree = "<group>"; };
+		2CFC841B1C172EA9003E054B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CFC84201C172EA9003E054B /* Swift_LuckyfyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_LuckyfyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CFC84241C172EA9003E054B /* Swift_LuckyfyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_LuckyfyUITests.swift; sourceTree = "<group>"; };
+		2CFC84261C172EA9003E054B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CFC83FE1C172EA8003E054B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CFC84121C172EA9003E054B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CFC841D1C172EA9003E054B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CFC83F81C172EA8003E054B = {
+			isa = PBXGroup;
+			children = (
+				2CFC84031C172EA8003E054B /* Swift_Luckyfy */,
+				2CFC84181C172EA9003E054B /* Swift_LuckyfyTests */,
+				2CFC84231C172EA9003E054B /* Swift_LuckyfyUITests */,
+				2CFC84021C172EA8003E054B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CFC84021C172EA8003E054B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CFC84011C172EA8003E054B /* Swift_Luckyfy.app */,
+				2CFC84151C172EA9003E054B /* Swift_LuckyfyTests.xctest */,
+				2CFC84201C172EA9003E054B /* Swift_LuckyfyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CFC84031C172EA8003E054B /* Swift_Luckyfy */ = {
+			isa = PBXGroup;
+			children = (
+				2CFC84041C172EA8003E054B /* AppDelegate.swift */,
+				2CFC84061C172EA8003E054B /* ViewController.swift */,
+				2CFC84081C172EA8003E054B /* Main.storyboard */,
+				2CFC840B1C172EA8003E054B /* Assets.xcassets */,
+				2CFC840D1C172EA8003E054B /* LaunchScreen.storyboard */,
+				2CFC84101C172EA8003E054B /* Info.plist */,
+			);
+			path = Swift_Luckyfy;
+			sourceTree = "<group>";
+		};
+		2CFC84181C172EA9003E054B /* Swift_LuckyfyTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CFC84191C172EA9003E054B /* Swift_LuckyfyTests.swift */,
+				2CFC841B1C172EA9003E054B /* Info.plist */,
+			);
+			path = Swift_LuckyfyTests;
+			sourceTree = "<group>";
+		};
+		2CFC84231C172EA9003E054B /* Swift_LuckyfyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CFC84241C172EA9003E054B /* Swift_LuckyfyUITests.swift */,
+				2CFC84261C172EA9003E054B /* Info.plist */,
+			);
+			path = Swift_LuckyfyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CFC84001C172EA8003E054B /* Swift_Luckyfy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CFC84291C172EA9003E054B /* Build configuration list for PBXNativeTarget "Swift_Luckyfy" */;
+			buildPhases = (
+				2CFC83FD1C172EA8003E054B /* Sources */,
+				2CFC83FE1C172EA8003E054B /* Frameworks */,
+				2CFC83FF1C172EA8003E054B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swift_Luckyfy;
+			productName = Swift_Luckyfy;
+			productReference = 2CFC84011C172EA8003E054B /* Swift_Luckyfy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CFC84141C172EA9003E054B /* Swift_LuckyfyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CFC842C1C172EA9003E054B /* Build configuration list for PBXNativeTarget "Swift_LuckyfyTests" */;
+			buildPhases = (
+				2CFC84111C172EA9003E054B /* Sources */,
+				2CFC84121C172EA9003E054B /* Frameworks */,
+				2CFC84131C172EA9003E054B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CFC84171C172EA9003E054B /* PBXTargetDependency */,
+			);
+			name = Swift_LuckyfyTests;
+			productName = Swift_LuckyfyTests;
+			productReference = 2CFC84151C172EA9003E054B /* Swift_LuckyfyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CFC841F1C172EA9003E054B /* Swift_LuckyfyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CFC842F1C172EA9003E054B /* Build configuration list for PBXNativeTarget "Swift_LuckyfyUITests" */;
+			buildPhases = (
+				2CFC841C1C172EA9003E054B /* Sources */,
+				2CFC841D1C172EA9003E054B /* Frameworks */,
+				2CFC841E1C172EA9003E054B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CFC84221C172EA9003E054B /* PBXTargetDependency */,
+			);
+			name = Swift_LuckyfyUITests;
+			productName = Swift_LuckyfyUITests;
+			productReference = 2CFC84201C172EA9003E054B /* Swift_LuckyfyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CFC83F91C172EA8003E054B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = LRF;
+				TargetAttributes = {
+					2CFC84001C172EA8003E054B = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					2CFC84141C172EA9003E054B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 2CFC84001C172EA8003E054B;
+					};
+					2CFC841F1C172EA9003E054B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 2CFC84001C172EA8003E054B;
+					};
+				};
+			};
+			buildConfigurationList = 2CFC83FC1C172EA8003E054B /* Build configuration list for PBXProject "Swift_Luckyfy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CFC83F81C172EA8003E054B;
+			productRefGroup = 2CFC84021C172EA8003E054B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CFC84001C172EA8003E054B /* Swift_Luckyfy */,
+				2CFC84141C172EA9003E054B /* Swift_LuckyfyTests */,
+				2CFC841F1C172EA9003E054B /* Swift_LuckyfyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CFC83FF1C172EA8003E054B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFC840F1C172EA8003E054B /* LaunchScreen.storyboard in Resources */,
+				2CFC840C1C172EA8003E054B /* Assets.xcassets in Resources */,
+				2CFC840A1C172EA8003E054B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CFC84131C172EA9003E054B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CFC841E1C172EA9003E054B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CFC83FD1C172EA8003E054B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFC84071C172EA8003E054B /* ViewController.swift in Sources */,
+				2CFC84051C172EA8003E054B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CFC84111C172EA9003E054B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFC841A1C172EA9003E054B /* Swift_LuckyfyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CFC841C1C172EA9003E054B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFC84251C172EA9003E054B /* Swift_LuckyfyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CFC84171C172EA9003E054B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CFC84001C172EA8003E054B /* Swift_Luckyfy */;
+			targetProxy = 2CFC84161C172EA9003E054B /* PBXContainerItemProxy */;
+		};
+		2CFC84221C172EA9003E054B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CFC84001C172EA8003E054B /* Swift_Luckyfy */;
+			targetProxy = 2CFC84211C172EA9003E054B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CFC84081C172EA8003E054B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CFC84091C172EA8003E054B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CFC840D1C172EA8003E054B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CFC840E1C172EA8003E054B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CFC84271C172EA9003E054B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CFC84281C172EA9003E054B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CFC842A1C172EA9003E054B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Swift_Luckyfy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.Swift-Luckyfy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CFC842B1C172EA9003E054B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Swift_Luckyfy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.Swift-Luckyfy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2CFC842D1C172EA9003E054B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Swift_LuckyfyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.Swift-LuckyfyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift_Luckyfy.app/Swift_Luckyfy";
+			};
+			name = Debug;
+		};
+		2CFC842E1C172EA9003E054B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Swift_LuckyfyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.Swift-LuckyfyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift_Luckyfy.app/Swift_Luckyfy";
+			};
+			name = Release;
+		};
+		2CFC84301C172EA9003E054B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Swift_LuckyfyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.Swift-LuckyfyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Swift_Luckyfy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2CFC84311C172EA9003E054B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Swift_LuckyfyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.Swift-LuckyfyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Swift_Luckyfy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CFC83FC1C172EA8003E054B /* Build configuration list for PBXProject "Swift_Luckyfy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CFC84271C172EA9003E054B /* Debug */,
+				2CFC84281C172EA9003E054B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CFC84291C172EA9003E054B /* Build configuration list for PBXNativeTarget "Swift_Luckyfy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CFC842A1C172EA9003E054B /* Debug */,
+				2CFC842B1C172EA9003E054B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CFC842C1C172EA9003E054B /* Build configuration list for PBXNativeTarget "Swift_LuckyfyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CFC842D1C172EA9003E054B /* Debug */,
+				2CFC842E1C172EA9003E054B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CFC842F1C172EA9003E054B /* Build configuration list for PBXNativeTarget "Swift_LuckyfyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CFC84301C172EA9003E054B /* Debug */,
+				2CFC84311C172EA9003E054B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CFC83F91C172EA8003E054B /* Project object */;
+}
