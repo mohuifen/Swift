@@ -14,6 +14,7 @@
 		2CFC840F1C172EA8003E054B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFC840D1C172EA8003E054B /* LaunchScreen.storyboard */; };
 		2CFC841A1C172EA9003E054B /* Swift_LuckyfyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC84191C172EA9003E054B /* Swift_LuckyfyTests.swift */; };
 		2CFC84251C172EA9003E054B /* Swift_LuckyfyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC84241C172EA9003E054B /* Swift_LuckyfyUITests.swift */; };
+		2CFC84381C17308D003E054B /* Swift_Overview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC84371C17308D003E054B /* Swift_Overview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2CFC84201C172EA9003E054B /* Swift_LuckyfyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_LuckyfyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFC84241C172EA9003E054B /* Swift_LuckyfyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_LuckyfyUITests.swift; sourceTree = "<group>"; };
 		2CFC84261C172EA9003E054B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CFC84371C17308D003E054B /* Swift_Overview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift_Overview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		2CFC84031C172EA8003E054B /* Swift_Luckyfy */ = {
 			isa = PBXGroup;
 			children = (
+				2CFC84361C17308D003E054B /* Swift */,
 				2CFC84041C172EA8003E054B /* AppDelegate.swift */,
 				2CFC84061C172EA8003E054B /* ViewController.swift */,
 				2CFC84081C172EA8003E054B /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				2CFC84261C172EA9003E054B /* Info.plist */,
 			);
 			path = Swift_LuckyfyUITests;
+			sourceTree = "<group>";
+		};
+		2CFC84361C17308D003E054B /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				2CFC84371C17308D003E054B /* Swift_Overview.swift */,
+			);
+			path = Swift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CFC84071C172EA8003E054B /* ViewController.swift in Sources */,
+				2CFC84381C17308D003E054B /* Swift_Overview.swift in Sources */,
 				2CFC84051C172EA8003E054B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
