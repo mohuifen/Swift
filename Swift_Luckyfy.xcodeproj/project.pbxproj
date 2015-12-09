@@ -15,6 +15,7 @@
 		2CFC841A1C172EA9003E054B /* Swift_LuckyfyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC84191C172EA9003E054B /* Swift_LuckyfyTests.swift */; };
 		2CFC84251C172EA9003E054B /* Swift_LuckyfyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC84241C172EA9003E054B /* Swift_LuckyfyUITests.swift */; };
 		2CFC84381C17308D003E054B /* Swift_Overview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC84371C17308D003E054B /* Swift_Overview.swift */; };
+		3D587A931C1836840084D7DF /* Swift_BasicOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D587A921C1836840084D7DF /* Swift_BasicOperators.swift */; };
 		3D5FF03C1C1809BF001D495B /* Swift_TheUnderlyingDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FF03B1C1809BF001D495B /* Swift_TheUnderlyingDataType.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		2CFC84241C172EA9003E054B /* Swift_LuckyfyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_LuckyfyUITests.swift; sourceTree = "<group>"; };
 		2CFC84261C172EA9003E054B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CFC84371C17308D003E054B /* Swift_Overview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift_Overview.swift; sourceTree = "<group>"; };
+		3D587A921C1836840084D7DF /* Swift_BasicOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift_BasicOperators.swift; sourceTree = "<group>"; };
 		3D5FF03B1C1809BF001D495B /* Swift_TheUnderlyingDataType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift_TheUnderlyingDataType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,6 +137,7 @@
 			children = (
 				2CFC84371C17308D003E054B /* Swift_Overview.swift */,
 				3D5FF03B1C1809BF001D495B /* Swift_TheUnderlyingDataType.swift */,
+				3D587A921C1836840084D7DF /* Swift_BasicOperators.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				2CFC84071C172EA8003E054B /* ViewController.swift in Sources */,
 				2CFC84381C17308D003E054B /* Swift_Overview.swift in Sources */,
 				3D5FF03C1C1809BF001D495B /* Swift_TheUnderlyingDataType.swift in Sources */,
+				3D587A931C1836840084D7DF /* Swift_BasicOperators.swift in Sources */,
 				2CFC84051C172EA8003E054B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
