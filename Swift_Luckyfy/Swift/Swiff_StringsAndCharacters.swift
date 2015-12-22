@@ -6,6 +6,7 @@
 //  Copyright © 2015年 LRF. All rights reserved.
 //
 
+/* Swift —— 字符串和字符 */
 import Foundation
 import UIKit
 
